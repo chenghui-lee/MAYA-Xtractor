@@ -74,7 +74,7 @@ def scrape(index):
         searchBut.click()
 
         # Wait for database to load
-        loaded = False
+        hasFirstPage = False
         while(not driver.find_element_by_xpath("//h1")):
             continue
         time.sleep(3)
