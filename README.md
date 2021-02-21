@@ -1,5 +1,5 @@
 # MAYA-Xtractor
-MAYA-Xtractor is a script to extract all the timetables over all the faculties and tabulate them in CSV files.
+MAYA-Xtractor is a script to extract all the timetables over the faculties and tabulate them in CSV files.
 
 ## Prerequisite
 - Python 3: [Download](https://www.python.org/downloads/)
