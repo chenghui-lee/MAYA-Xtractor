@@ -45,3 +45,11 @@ You can view the real-time progress of the script in your command line prompt.
 The script will output a CSV file for every faculty.
 
 ![fsktm-generated](https://i.imgur.com/26NenwJ.png)
+
+## Future Update
+To update the script when there is new version.
+```
+$ cd MAYA-Xtractor/
+$ git pull
+```
+
