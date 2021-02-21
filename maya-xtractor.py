@@ -138,6 +138,7 @@ for index in range(len(listOfFaculty)):
     time.sleep(3)
     
 after = datetime.datetime.now()
+driver.close()
 print("Done Scrapped {} faculties.".format(len(listOfFaculty)))
 print("Time used: {}".format(after - before))
 
