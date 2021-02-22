@@ -75,8 +75,7 @@ def scrape(index):
 
         # Wait for database to load
         hasFirstPage = False
-        while(not driver.find_element_by_xpath("//h1")):
-            continue
+        driver.find_element_by_xpath("//h1")
         time.sleep(3)
         
         # Capture the first page of the table
