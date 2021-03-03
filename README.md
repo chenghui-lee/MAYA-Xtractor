@@ -55,3 +55,6 @@ $ cd MAYA-Xtractor/
 $ git pull
 ```
 
+## License
+You're free to fork / modify the code for your own purpose, however please link this repository somewhere in your program.
+
