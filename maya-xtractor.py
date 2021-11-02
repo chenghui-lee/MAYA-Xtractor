@@ -49,17 +49,17 @@ def scrape(index):
         driver.implicitly_wait(5)
         driver.find_element_by_xpath("//div/div/div/div/div/div/div/a/div/div[1]").click() # Timetable
         driver.implicitly_wait(1)
-        driver.find_element_by_xpath("//body/div[2]/div[2]/center/div/div/div[3]/a").click() # Search Timetable
+        driver.find_element_by_xpath("//body/div[2]/div[2]/center/div/div/div[4]/a").click() # Search Timetable
         driver.implicitly_wait(3)
         # Select year
         driver.find_elements_by_xpath("//div[contains(@tabindex, '-1')]")[0].click()
-        driver.find_element_by_xpath("//div/input[contains(@aria-label,'Year')]").send_keys("2020/2021")
+        driver.find_element_by_xpath("//div/input[contains(@aria-label,'Year')]").send_keys("2021/2022")
         driver.find_element_by_xpath("//div/input[contains(@aria-label,'Year')]").send_keys(Keys.ENTER)
         
         # Select Semester
         driver.find_elements_by_xpath("//div[contains(@tabindex, '-1')]")[1].click()
-        driver.find_element_by_xpath("//div/input[contains(@aria-label,'Slot')]").send_keys("SEMESTER 2")
-        for i in range (8):
+        driver.find_element_by_xpath("//div/input[contains(@aria-label,'Slot')]").send_keys("SEMESTER 1")
+        for i in range (9):
             driver.find_element_by_xpath("//div/input[contains(@aria-label,'Slot')]").send_keys(Keys.ARROW_DOWN)
         driver.find_element_by_xpath("//div/input[contains(@aria-label,'Slot')]").send_keys(Keys.ENTER)
 
